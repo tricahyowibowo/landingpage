@@ -64,6 +64,7 @@
                  <ul class="navlinks">
                      <li><a href="<?php echo base_url()?>">Home</a></li>
                      <li><a href="<?php echo base_url('tentangkami')?>">Tentang Kami</a></li>
+                     <li><a href="<?php echo base_url('produk')?>">Produk</a></li>
                      <li><a href="<?php echo base_url('kunjunganindustri')?>">Kunjungan Industri</a></li>
                      <li><a href="<?php echo base_url('kontakkami')?>">Kontak Kami</a></li>
                  </ul>

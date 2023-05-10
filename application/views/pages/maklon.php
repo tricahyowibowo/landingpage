@@ -1,7 +1,7 @@
 <section class="pages">
   <div class="container py-4 maklon">
 
-    <div class="header-pages" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="header-pages">
       <div class="image-header d-none d-md-block" style="background: url(<?php echo base_url().'assets/landingpage/images/produksi.webp'?>); background-repeat: no-repeat; background-size:cover ;background-position: center;"></div>
     </div>
     

@@ -1,7 +1,7 @@
 <section class="pages produkkami">
     <section class="header-produkkami">
         <div class="container">
-            <div class="image-header d-none d-md-block" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="100" data-aos-easing="ease-in-sine" style="background: url(<?php echo base_url().'assets/landingpage/images/produkkami.webp'?>); background-repeat: no-repeat; background-size:cover ;background-position: center;"></div>
+            <div class="image-header d-none d-md-block" style="background: url(<?php echo base_url().'assets/landingpage/images/produkkami.webp'?>); background-repeat: no-repeat; background-size:cover ;background-position: center;"></div>
             <div class="row" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div class="col-md-6">
                     <h2 class="header-text">Bantu Lengkapi Nutrisi Harian Bersama Mirota</h2>
@@ -31,7 +31,7 @@
                                             <h2 class="myH2 text-center">Tinggi Omega 3 & 6</h2>
                                         </div>
                                         <div class="card-body">
-                                            <p>Berperan dalam mengoptimalkan perkembangan kognitif, aktivitas otot, hingga pertumbuhan fisik si Kecil.</p>
+                                            <p class="myP">Berperan dalam mengoptimalkan perkembangan kognitif, aktivitas otot, hingga pertumbuhan fisik si Kecil.</p>
                                         </div>
                                     </div>        
                                 </div>

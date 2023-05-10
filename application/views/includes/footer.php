@@ -112,10 +112,10 @@ s0.parentNode.insertBefore(s1,s0);
                     <nav>
                     <ul>
                         <li>
-                            <a href="#">Syarat & Ketentuan</a>
+                            <a href="<?php echo base_url('syaratketentuan')?>">Syarat & Ketentuan</a>
                         </li>
                         <li>
-                            <a href="#">Kebjiakan Privasi</a>
+                            <a href="<?php echo base_url('privasi')?>">Kebjiakan Privasi</a>
                         </li>
                         <li>
                             <a href="<?php echo base_url('karir')?>">Karir</a>

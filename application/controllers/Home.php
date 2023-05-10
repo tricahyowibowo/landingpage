@@ -26,4 +26,18 @@ class Home extends BaseController
         $this->loadPageViews("pages/home", $this->global , NULL);
     }
 
+    public function privasi()
+    {
+        $this->global['pageTitle'] = 'Mirota KSM | Privasi';
+        
+        $this->loadPageViews("pages/privasi", $this->global , NULL);
+    }
+
+    public function syaratKetentuan()
+    {
+        $this->global['pageTitle'] = 'Mirota KSM | Syarat Ketentuan';
+        
+        $this->loadPageViews("pages/syaratKetentuan", $this->global , NULL);
+    }
+
 }

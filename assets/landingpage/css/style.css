@@ -126,8 +126,10 @@ a{
 .navBar div.main_list ul li a {
     text-decoration: none;
     color: #fff;
+    text-shadow: 1px 1px 4px #004aad, 0 0 5px #004aad;
+    /* text-shadow: 1px 1px 2px #031b3a, 0 0 25px #083a7c, 0 0 5px #004aad; */
     line-height: 65px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .navBar div.main_list ul li a:hover {
@@ -229,6 +231,8 @@ a{
     display: block;
     width: 100%;
     height: 4px;
+    box-shadow: 1px 1px 4px #004aad, 0 0 5px #004aad;
+
 }
 
 .navTrigger i:nth-child(1) {
@@ -970,8 +974,13 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .gallery-kunjungan .header-text{
-  padding: 10% 0 0 2%;
+  padding: 10% 0 0 2%;  
+  text-align: center;
 
+}
+
+.kunjunganindustri{
+  margin-bottom: 10%;
 }
 
 .CTA-kunjungan{
@@ -984,6 +993,10 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 0 25% 0 0;
 }
 
+.slideshow-kunjungan{
+  padding:10px 10px;
+}
+
 @media screen and (max-width:764px) {
   .pages .container{
     padding: 0 10% 0 10%;
@@ -993,9 +1006,6 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-top:100px;
   }
 
-  .gallery-kunjungan .content-image{
-    margin-bottom: 50px;
-  }
 }
 /* ==========================KUNJUNGAN INDUSTRI================================== */
 /* ==========================KONTAK KAMI================================== */
@@ -1138,6 +1148,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 padding: 5%;
 }
 
+.card-kandungan .myP{
+  font-size: 14px;
+  text-align: center;
+}
+
 .header-produk img{
   width: 50%;
 }
@@ -1145,7 +1160,7 @@ padding: 5%;
 .produk .card{
   margin: 5% 0 5% 0;
   padding: 5% ;
-  background-color: #004aad;
+  background-color: #5b84b9;
   /* border: none; */
   color: #fff;
   width: 100%;
@@ -1177,8 +1192,6 @@ padding: 5%;
 }
 
 
-@media (max-width:766px) {
-
   .header-produk img{
       display: none;
   }
@@ -1208,8 +1221,6 @@ padding: 5%;
     font-size: 12px;
     text-align: left;
     }
-
-}
 
 /* ===========================PRODUK================================= */
 
@@ -1252,10 +1263,6 @@ padding: 5%;
 .btn-action:hover, .btn-action:active {
   background-color: rgba(0,74,173,0.5);
   color: #ffffff;
-}
-
-section{
-  padding:0 10% 0 10% ;
 }
 
 .pages{
@@ -1307,7 +1314,7 @@ margin: 12% 0 10% 0;
   border-radius: 15px;
   border: 2px solid #ddd;
   padding: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .text-image{
@@ -1315,7 +1322,7 @@ margin: 12% 0 10% 0;
 }
 
 .carousel-card{
-  padding: 0 15% 0 15%;
+  padding: 5% 12% 5% 12%;
 }
 
 @media screen and (min-width:764px) {

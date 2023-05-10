@@ -51,6 +51,10 @@ $route['datapelamar'] = 'karir/datapelamar';
 $route['formulir-kunjungan'] = 'kunjunganindustri/formulir';
 $route['datakunjungan'] = 'kunjunganindustri/datakunjungan';
 
+$route['privasi'] = 'home/privasi';
+$route['syaratketentuan'] = 'home/syaratKetentuan';
+
+
 /*********** USER DEFINED ROUTES *******************/
 
 $route['loginMe'] = 'adminpanel/login/loginMe';
