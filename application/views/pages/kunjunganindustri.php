@@ -41,7 +41,7 @@
       <div class="image-header d-none d-md-block" style="background: url(<?php echo base_url().'assets/landingpage/images/fotobersama.webp'?>); background-repeat: no-repeat; background-size:cover ;background-position: center;"></div>
     </div>
 
-    <div class="body-pages" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="body-pages" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
       <div class="row">
         <div class="col-md-6">
           <div >
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <div class="gallery-kunjungan my-3" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="gallery-kunjungan my-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
       <h2 class="header-text">Gallery Kunjungan Industri Kami</h2>
       <div class="row mx-auto my-auto justify-content-center">
           <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -106,12 +106,12 @@
   
   <div class="CTA-kunjungan">
     <div class="container">
-      <div class="row" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease-in-sine"> 
+      <div class="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine"> 
         <div class="col-md-4">
-          GAMBAR LOGO
+          <img style="width:100%" src="assets/landingpage/images/customer_service.png" srcset="">
         </div>
-        <div class="col-md-8">
-          <h2 class="header-text">Ingin Memiliki Pengalaman yang Sama Dengan Mereka? </h2>
+        <div class="col-md-8" style="margin-top:10%">
+          <h2 class="header-text" style="padding-bottom:10px">Ingin Memiliki Pengalaman yang Sama Dengan Mereka? </h2>
           <p class="paragraf">
             dapat melihat dan berkenalan secara langsung dengan kami.
           </p>

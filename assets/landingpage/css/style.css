@@ -35,11 +35,11 @@ body{
 }
 
 /* Container holding the image and the text */
-.contaner {
-    position: relative;
-    text-align: center;
-    color: white;
-}
+/*.contaner {*/
+/*    position: relative;*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*}*/
   
 /* Bottom left text */
 .carousel-caption {
@@ -83,12 +83,14 @@ a{
 
 .navBar div.logo {
     float: left;
-    width: auto;
-    height: auto;
+    /*width: auto;*/
+    /*height: auto;*/
     /* padding-left: 3rem; */
 }
 
 .img-logo{
+    float:left;
+    margin-top : 10px;
     width: 50%;
 }
 
@@ -120,7 +122,7 @@ a{
     width: auto;
     height: 65px;
     padding: 0;
-    padding-right: 35px;
+    padding-right: 15px;
 }
 
 .navBar div.main_list ul li a {
@@ -130,10 +132,14 @@ a{
     /* text-shadow: 1px 1px 2px #031b3a, 0 0 25px #083a7c, 0 0 5px #004aad; */
     line-height: 65px;
     font-size: 16px;
+    padding: 5px 10px;
 }
 
 .navBar div.main_list ul li a:hover {
-    color: #E52128;
+    color: #ffff;
+    background-color: #033e8b;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #06336e;
 }
 
 .navTrigger {
@@ -141,38 +147,29 @@ a{
 }
 
 .navBar {
-    padding-top: 40px;
     padding-bottom: 0px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
 
-/* Media qurey section */
-@media screen and (min-width: 910px) and (max-width: 1024px) {
-    .container {
-        margin: 0;
-    }
-}
 
 @media screen and (max-width:1050px) {
 
     .con {
         margin-top: -5px;
     }
-
-    .logo{
-        margin-top: -80px;
-        padding-top: 35px;
-    }    
-
-    .img-logo{
-        margin-top: 10px;
-        margin-left: -50%;
-        width: 30%;
-    }
-
+    
     .navTrigger {
         display: block;
+    }
+    
+    .img-logo{
+        width: 30%;
+    }
+    
+    .logo{
+        padding-top: 0;
+        left: 0;
     }
 
     .navBar div.main_list {
@@ -187,6 +184,7 @@ a{
     }
 
     .navBar div.main_list ul {
+        margin-top:5%;
         flex-direction: column;
         width: 100%;
         opacity: 80%;
@@ -217,12 +215,18 @@ a{
     cursor: pointer;
     width: 30px;
     height: 25px;
-    margin: auto;
+    margin: 10px;
     position: absolute;
     right: 30px;
     top: 0;
     bottom: 0;
 }
+
+/*.navBar div.main_list ul {*/
+/*  cursor: pointer;*/
+/*  margin-top:30px;*/
+/*  bottom: 0;*/
+/*}*/
 
 .navTrigger i {
     background-color: #fff;
@@ -408,39 +412,49 @@ a{
     padding: 0;
     /* background:linear-gradient(180deg, rgba(0,74,173,1) 35%, rgba(255, 255, 255, 0) 100%); */
     background-color: rgba(0,74,173,0.5);
-    width: 80%;
-    left: 10%;
+    height:70px;
+    width: 95%;
+    left: 2%;
     border-radius:  0 0 15px 15px;
 }
 
-@media all and (max-width:700px){
+.affixlogo {
+    padding: 0;
+}
+
+@media all and (max-width:900px){
     .myP {
         padding:2%;
         font-size: 14px;
+    }
+    
+    .affix {
+    height:50px;
     }
 }
 /* /navbar section */
 
 .layanan{
-  padding: 10%;
+  padding: 5%;
   background-color: rgba(0,74,173,0.2);
+}
+
+.layanan .header-text{
+    padding: 0% 20%;
 }
 
   /* =============================== CTA ================================== */
   .CTA {
     /* padding: 40px; */
-    margin: 10% 0 5% 0;
+    margin: 5% 0 5% 0;
     /* border-radius: 15px; */
     /* background:linear-gradient(360deg, rgba(0,74,173,1) 100%, rgba(0,74,173, 0) 50%); */
   }
 
   .header-desc h2, .header-produk-desc h2{
     font-size: 30px;
-    /* font-family: 'Secular One', sans-serif; */
     font-family: 'Tilt Warp', cursive;
-    /* line-height: 1.2; */
     text-align: center;
-    /* font-weight: bold; */
     background: linear-gradient(90deg, rgba(0,74,173,1) 0%, rgba(0,212,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -968,13 +982,8 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 /* ==========================TENTANG KAMI================================== */
 
 /* ==========================KUNJUNGAN INDUSTRI================================== */
-.kunjunganindustri .header-text{
-  text-align: left;
-  padding: 12% 0 0 0;
-}
-
 .gallery-kunjungan .header-text{
-  padding: 10% 0 0 2%;  
+  padding: 10% 0 0 s;  
   text-align: center;
 
 }
@@ -990,7 +999,6 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 .CTA-kunjungan .header-text{
   text-align: left;
-  padding: 0 25% 0 0;
 }
 
 .slideshow-kunjungan{
@@ -1086,7 +1094,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 /* ===========================PRODUK================================= */
 .produkkami{
-  padding-bottom: 20%;
+  padding-bottom: 20px;
 }
 
 .modal-produk{
@@ -1168,9 +1176,9 @@ padding: 5%;
 }
 
 .card-img-top{
-  width: 140px;
-  /* width: 100%;  */
-  height: 160px;
+  /*width: 140px;*/
+   width: auto;  
+  height: auto;
   float: center;
 }
 
@@ -1266,7 +1274,7 @@ padding: 5%;
 }
 
 .pages{
-  padding: 8% 0 0 0;
+  padding-top:8%;
   background: linear-gradient(180deg, rgba(0,74,173,0.3) 15%, rgba(255,255,255,1) 50%);
 }
 
@@ -1296,8 +1304,7 @@ margin: 12% 0 10% 0;
 }
 
 .header-text{
-  font-size: 36px;
-  padding: 0 20% 0 20%;
+  font-size: 28px;
   font-family: 'poppins';
   text-align: center;
   font-weight: bold;
@@ -1325,9 +1332,36 @@ margin: 12% 0 10% 0;
   padding: 5% 12% 5% 12%;
 }
 
+.text-syarat p, .text-privasi p{
+  text-align: justify;
+  color: #000000;
+  font-size: 14px;
+}
+
+.text-syarat a, .text-privasi a{
+  color: #000000;
+}
+
+.text-syarat, .text-privasi{
+  margin-bottom:100px;
+}
+
 @media screen and (min-width:764px) {
   .paragraf{
     text-align: left;
   }
+  
+  .header-text{
+  font-size: 36px;
+  /*padding: 0 20% 0 20%;*/
+  font-family: 'poppins';
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(90deg, rgba(0,74,173,1) 0%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-transform: uppercase; */
+  }
+
 }
   

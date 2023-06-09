@@ -1,8 +1,8 @@
 <section class="pages" style="margin-bottom:10%">
-  <div class="container tentangkami" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" data-aos-easing="ease-in-sine">
+  <div class="container tentangkami" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
     <div class="row">
       <div class="col-md-6">
-        <img class="imagetentang" src="assets/landingpage/images/mirotaksm.webp" alt="peresmian mirota ksm" srcset="">
+        <img class="imagetentang" src="assets/landingpage/images/mirota-dulu.webp" alt="gedung mirota ksm jama dulu" srcset="">
       </div>
       <div class="col-md-6">
         <h2 class="myH2">SEJARAH PT MIROTA KSM</h2>

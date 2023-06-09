@@ -1,94 +1,9 @@
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/642bd8e34247f20fefe9b31c/1gt5keeqb';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-<!--End of Tawk.to Script-->
 </body>
     <!-- Footer -->
     <footer class="text-center text-lg-start text-white">
     <!-- Grid container -->
-    <div class="container p-4 pb-0">
-        <!-- Section: Links -->
-        <section class="">
-            <!--Grid row-->
-            <div class="row">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <!-- <h3 class="text-uppercase mb-4 font-weight-bold">
-                    PT. Mirota KSM
-                </h3> -->
-                </div>
-                <!-- Grid column -->
-
-                <!-- <hr class="w-100 clearfix d-md-none" /> -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <!-- <h3 class="text-uppercase header-footer">Tentang Kami</h3>
-                <p>
-                    <a class="text-white" href="#">Sejarah</a>
-                </p>
-                <p>
-                    <a class="text-white" href="#">Penghargaaan</a>
-                </p>
-                <p>
-                    <a class="text-white" href="#">Bisnis</a>
-                </p>
-                <p>
-                    <a class="text-white" href="#">Karir</a>
-                </p> -->
-                </div>
-                <!-- Grid column -->
-
-                <!-- <hr class="w-100 clearfix d-md-none" /> -->
-
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <!-- <h3 class="text-uppercase header-footer">
-                    Produk Kami
-                </h3>
-                <p>
-                    <a class="text-white" href="#">Prosteo</a>
-                </p>
-                <p>
-                    <a class="text-white" href="#">Lactona</a>
-                </p>
-                <p>
-                    <a class="text-white" href="#">Prolansia</a>
-                </p> -->
-                </div>
-
-                <!-- Grid column -->
-                <!-- <hr class="w-100 clearfix d-md-none" /> -->
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <!-- <h3 class="text-uppercase header-footer">Contact</h3>
-                <p><i class="fas fa-home mr-3"></i> Jl Anggrek No. 141 Sambilegi Kidul Yogyakarta</p>
-                <p><i class="fas fa-clock mr-3"></i> Senin - Jum'at | 08:00 - 17:00</p>
-                <p><i class="fas fa-envelope mr-3"></i> info@mirota.id</p>
-                <p><i class="fas fa-phone mr-3"></i> (0274) 488378</p> -->
-
-                </div>
-                <!-- Grid column -->
-            </div>
-            <!--Grid row-->
-        </section>
-        <!-- Section: Links -->
-
+    <div class=" p-4 pb-0">
         <hr class="my-3">
 
         <!-- Section: Copyright -->
@@ -171,6 +86,25 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- Jquery needed -->
     <script src="<?= base_url(); ?>assets/js/jQuery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/642bd8e34247f20fefe9b31c/1gt5keeqb';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    <!--End of Tawk.to Script-->
 
 
     <script>
@@ -180,7 +114,7 @@ s0.parentNode.insertBefore(s1,s0);
             
         });
     
-    $("#load").fadeOut(1000);
+    $("#load").fadeOut(2000);
     });
     </script>
 
@@ -189,9 +123,11 @@ s0.parentNode.insertBefore(s1,s0);
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
                 $('.navBar').addClass('affix');
+                $('.logo').addClass('affixlogo');
                 console.log("OK");
             } else {
                 $('.navBar').removeClass('affix');
+                $('.logo').addClass('affixlogo');
             }
         });
     </script>
